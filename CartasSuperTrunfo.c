@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int populacao = 12325000, turismo = 50;
-    float area = 1521.11, pib = 699.28;
-    char estado = 'A', cidade[50] = "São Paulo", codigo[50] = "A01";
-    int populacao2 = 6748000, turismo2 = 30;
-    float area2 = 1200.25, pib2 = 300.50;
-    char estado2 = 'B', cidade2[50] = "Rio de Janeiro", codigo2 [50] = "B02";
+    int populacao = 785368, turismo = 23;
+    float area = 167.401, pib = 23.8, densidade = 4691.53;
+    char estado = 'A', cidade[50] = "Natal", codigo[50] = "A01";
+    int populacao2 = 2570000, turismo2 = 15;
+    float area2 = 693.442, pib2 = 62.954;
+    char estado2 = 'B', cidade2[50] = "Salvador", codigo2 [50] = "B02";
 
     printf("Carta 1: \n");
     printf("Estado: %c \n", estado);
@@ -16,6 +16,7 @@ int main() {
     printf("Área: %.2f km/²\n", area);
     printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Número de Pontos Turísticos %d\n", turismo);
+    printf("Densidade Populacional %.2f", densidade);
 
     printf ("\n");
     printf("Carta 2: \n");
